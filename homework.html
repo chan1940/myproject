@@ -1,0 +1,101 @@
+<html>
+<head>
+	<title>상품 구매</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- JS -->   
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- 구글폰트 -->
+	<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
+
+	<style type="text/css">
+		* {
+			font-family: 'Stylish', sans-serif;
+		}
+		.wrap {
+			width: 1000px;
+			margin: auto;
+		}
+		.comment {
+			color: blue;
+			font-weight: bold;
+		}
+
+		.form-post {
+			max-width: 300px;
+			padding: 3rem;
+			margin: 2rem auto;
+			border-color: #e9ecef;
+			border: solid;
+			display: block;
+		}
+
+	</style>
+
+
+</head>
+<body>
+
+
+	<div class="form-post" id="post-box">
+
+		<img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F20493E1E4BFF60E11A" alt="Card image cap" width = "200" height="200">
+
+
+	</div>
+	<div class="wrap">
+	<h1>축구공을 팝니다</h1>
+	<h3>가격:500,000원/개</h3>
+	<h5>이 축구공은 월드컵에 사용되었던 공인구에요</h5>
+
+	<form>
+		<div class="form-row">
+			<div class="col-md-4 mb-3">
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="inputGroupPrepend2">주문자 이름</span>
+					</div>
+					<input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+				</div>
+			</div>
+
+
+		<div class="col-md-4 mb-3">
+			<div class="input-group">
+				<div class="input-group-prepend">
+
+					<span class="input-group-text" id="inputGroupPrepend2">수량</span>
+				</div>
+				<input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+			</div>
+		</div>
+		<div class="col-md-4 mb-3">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupPrepend2">주소</span>
+						</div>
+						<input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+					</div>
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="inputGroupPrepend2">전화번호</span>
+					</div>
+					<input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+				</div>
+			</div>
+			<button class="btn btn-primary" type="submit">주문하기</button>
+		</form>
+</div>
+	</body>
+	</html>
